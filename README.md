@@ -52,4 +52,4 @@ Secrets do repositório necessários: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KE
 
 ## State remoto
 
-O state fica em um bucket S3 (`oficina-mecanica-tfstate-159157616728`), compartilhado com os outros repositórios Terraform do projeto, cada um com sua própria `key` (`db/terraform.tfstate` neste caso) — necessário porque os runners do GitHub Actions são efêmeros e não podem depender de state local entre execuções.
+O state fica em um bucket S3 (`oficina-mecanica-tfstate-897966076873`), compartilhado com os outros repositórios Terraform do projeto, cada um com sua própria `key` (`db/terraform.tfstate` neste caso) — necessário porque os runners do GitHub Actions são efêmeros e não podem depender de state local entre execuções.
